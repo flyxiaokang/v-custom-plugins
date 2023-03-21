@@ -8,10 +8,13 @@
 -->
 # v-custom-plugins
 
+## introduce
+    自定义组件库
+
 ## How to use?
 ```
 #安装
-npm install v-custom-plugins
+npm install v-custom-plugins --save
 
 #引入
 import VcPlugins from 'v-custom-plugins'
@@ -46,7 +49,5 @@ VcPlugins.install(Vue)
 | leftWidth | <code>number</code> | 左侧面板宽 | 300 |
 | minWidth | <code>number</code> | 面板最小宽度 | 200 |
 
-
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## dependencies
+    element-ui@^2.15.12
